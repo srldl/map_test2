@@ -1,21 +1,19 @@
-<html ng-app="demoapp">
-  <head>
-     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <script src="./node_modules/angular/angular.js"></script>
-    <script src="./node_modules/leaflet/dist/leaflet.js"></script>
-   <!-- <script src="./node_modules/angular-simple-logger/dist/index.js"></script>  -->
-    <script src="./node_modules/angular-leaflet-directive/dist/angular-leaflet-directive.js"></script>
-    <script src="./index.js"></script>
+<!doctype html>
+<html lang="en" ng-app="map_test">
+<head>
+  <title>Map test</title>
 
-    <link rel="stylesheet" href="./node_modules/leaflet/dist/leaflet.css" />
-  </head>
+  <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-  <body ng-controller="BasicFirstController">
-   <!-- <script src="./bundle.js"></script> -->
-    <h1>Basic example</h1>
-    <leaflet width="100%" height="480px"></leaflet>
-    <div id="map"></div>
+ <link rel="stylesheet" href="./node_modules/leaflet/dist/leaflet.css">
+ <link rel="stylesheet" href="./node_modules/leaflet-draw/dist/leaflet.draw.css">
+</head>
 
+<div  ng-controller="MapCtrl">
+ <div id="map" style="width: 600px; height: 400px"></div>
+<script src="bundle.js"></script>
+</div>
 
-  </body>
+</body>
+
 </html>

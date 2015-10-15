@@ -1,14 +1,15 @@
 {
-  "name": "map2_test",
+  "name": "map_test",
   "version": "1.0.0",
   "description": "Basic map test with browserify and gulp",
-  "main": "index.js",
+  "main": "gulpfile.js",
   "scripts": {
-    "start": "ws"
+    "start": "http-server -a vimsa.npolar.no -p 8000 -c-1",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/srldl/map2_test.git"
+    "url": "git+https://github.com/srldl/map_test.git"
   },
   "keywords": [
     "map",
@@ -17,19 +18,28 @@
   "author": "srldl",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/srldl/map_test2/issues"
+    "url": "https://github.com/srldl/map_test/issues"
   },
-  "homepage": "https://github.com/srldl/map_test2#readme",
+  "homepage": "https://github.com/srldl/map_test#readme",
   "devDependencies": {
     "angular-simple-logger": "^0.1.4",
+    "browser-sync": "^2.8.2",
     "browserify": "^11.0.1",
     "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-concat-css": "^2.2.0",
+    "gulp-csso": "^1.0.0",
+    "gulp-jshint": "^1.11.2",
+    "gulp-minify-css": "^1.2.0",
+    "gulp-notify": "^2.2.0",
+    "gulp-uglify": "^1.2.0",
+    "http-server": "^0.8.0",
     "leaflet-draw": "^0.2.3",
-    "local-web-server": "^0.5.23"
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0"
   },
   "dependencies": {
-    "angular": "^1.4.7",
-    "angular-leaflet-directive": "^0.8.8",
+    "angular": "^1.4.4",
     "leaflet": "^0.7.3"
   }
 }
