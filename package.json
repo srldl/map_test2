@@ -1,6 +1,6 @@
 {
   "name": "map_test2",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Basic map test with browserify and gulp",
   "main": "gulpfile.js",
   "scripts": {
