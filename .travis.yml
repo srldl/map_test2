@@ -3,4 +3,4 @@ language: javsacript
 javascript: 
 - 1.5
   
-script: index.js 
+script: npm start 
