@@ -1,6 +1,6 @@
-language: javsacript
+language: node_js
 
-javascript: 
-- 1.5
+node_js: 
+- '5.0'
   
 script: npm start 
