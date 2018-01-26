@@ -1,5 +1,13 @@
 /*Style sheet for map_test*/
 
-#map2 {
+#map {
   height: 500px;
 }
+.mycluster {
+			width: 100px;
+			height: 100px;
+			background-color: greenyellow;
+			text-align: center;
+			font-size: 44px;
+}
+
