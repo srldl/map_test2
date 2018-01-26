@@ -1,1 +1,1 @@
-Test for maps with browserify/angular using leaflet.
+Test for maps with browserify/angular using leaflet and MarkerCluster.
