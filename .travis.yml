@@ -4,3 +4,10 @@ node_js:
 - '5.0'
   
 script: npm start 
+
+cache:
+  directories: 
+      - node_modules
+branches:
+  except:
+    - ci

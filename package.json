@@ -4,7 +4,7 @@
   "description": "Basic map test with browserify and gulp",
   "main": "gulpfile.js",
   "scripts": {
-    "start": "http-server -a vimsa.npolar.no -p 8001 -c-1",
+    "start": "http-server -a localhost -p 8000 -c-1",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
